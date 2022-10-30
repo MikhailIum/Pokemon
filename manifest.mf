@@ -1,0 +1,2 @@
+main-class: ru.ifmo.pokemon.task.Main
+class-path: Pokemon.jar
