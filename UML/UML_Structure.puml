@@ -1,0 +1,59 @@
+@startuml
+hide empty members
+skinparam class {
+  BackgroundColor #89909F
+  ArrowColor      #4682B4
+  BorderColor     #979AAA
+}
+skinparam backgroundColor #2F353B
+
+class Pokemon << (C, LightBlue) >>
+class Cleffa << (C, LightBlue) >>
+class Clefairy << (C, LightBlue) >>
+class Clefable << (C, LightBlue) >>
+class Wimpod << (C, LightBlue) >>
+class Golispod << (C, LightBlue) >>
+class Seviper << (C, LightBlue) >>
+class Move
+class SpecialMove
+class DamageMove
+class PhysicalMove
+class StatusMove
+class DarkPulse
+class Double_team
+class Facade
+class Flamethrower
+class Liquidation
+class PoisonTail
+class Rest
+class Sing
+class Swagger
+class Thunder
+class Wake_up
+class Waterfall
+
+
+Cleffa 	--|> Pokemon
+Clefairy --|> Cleffa
+Clefable --|> Clefairy
+Wimpod 	--|> Pokemon
+Golispod --|> Wimpod
+Seviper	--|> Pokemon
+DamageMove	--|> Move
+StatusMove	--|> Move
+SpecialMove	--|> DamageMove
+PhysicalMove --|> DamageMove
+DarkPulse --|> SpecialMove
+Double_team --|> StatusMove
+Facade --|> PhysicalMove
+Flamethrower --|> SpecialMove
+Liquidation --|> PhysicalMove
+PoisonTail --|> PhysicalMove
+Rest --|> StatusMove
+Sing --|> StatusMove
+Swagger --|> StatusMove
+Thunder --|> SpecialMove
+Wake_up --|> PhysicalMove
+Waterfall --|> PhysicalMove
+
+@enduml
