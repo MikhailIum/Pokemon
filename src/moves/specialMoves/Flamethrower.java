@@ -1,4 +1,4 @@
-package ru.ifmo.pokemon.task;
+package ru.ifmo.pokemon.task.moves.specialMoves;
 
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
