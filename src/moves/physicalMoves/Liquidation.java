@@ -1,4 +1,4 @@
-package ru.ifmo.pokemon.task;
+package ru.ifmo.pokemon.task.moves.physicalMoves;
 
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
