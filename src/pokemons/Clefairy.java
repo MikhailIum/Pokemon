@@ -1,4 +1,4 @@
-package ru.ifmo.pokemon.task;
+package ru.ifmo.pokemon.task.pokemons;
 
 import ru.ifmo.se.pokemon.Type;
 
